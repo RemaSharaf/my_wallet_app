@@ -14,7 +14,7 @@ class Account extends StatelessWidget {
       body: SafeArea(
         child: Column(
           children: const [
-            AccountHeader(),
+            // AccountHeader(),
             Expanded(child: CardWidget()),
             Expanded(
               child: ExpensesWidget(),
